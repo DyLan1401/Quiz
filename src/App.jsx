@@ -17,7 +17,7 @@ const App = () => {
       options.amount
     );
 
-     
+
     const formatData = data.map((q) => ({
       ...q,
       answers: [...q.incorrect_answers, q.correct_answer].sort(), 

@@ -38,7 +38,7 @@ const QuizTime = ({ difficulty, QuestionCount, onTimeUp }) => {
   };
 
   return (
-    <div className="text-neutral-100 font-medium text-lg">
+    <div className="text-neutral-100 font-medium text-lg flex items-start">
       <p>
         Time Left:
         <span className="font-semibold ml-2">{formatTime(timeLeft)}</span>

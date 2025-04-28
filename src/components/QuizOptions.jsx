@@ -44,11 +44,11 @@ const QuizOptions = ({ startQuiz }) => {
       </div>
       <form
         onSubmit={handleSubmit}
-        className="w-full p-6 space-y-6 bg-neutral-50/20 backdrop-blur rounded-xl"
+        className="w-full p-6 space-y-6 bg-neutral-50/20 backdrop-blur rounded-xl "
       >
          
-        <label className="block space-y-1">
-          <p className="text-base text-neutral-200 font-medium">
+        <label className="block space-y-1  ">
+          <p className="text-base flex items-start  text-neutral-200 font-medium">
             Select Category
           </p>
           <select
@@ -67,7 +67,7 @@ const QuizOptions = ({ startQuiz }) => {
         </label>
          
         <div className="space-y-1">
-          <p className="text-base text-neutral-200 font-medium">
+          <p className="text-base flex items-start text-neutral-200 font-medium">
             Select Difficulty Level
           </p>
           <select
@@ -83,7 +83,7 @@ const QuizOptions = ({ startQuiz }) => {
         </div>
          
         <div className="space-y-1">
-          <p className="text-base text-neutral-200 font-medium">
+          <p className="text-base flex items-start text-neutral-200 font-medium">
             Select Question Type{" "}
           </p>
           <select
@@ -99,7 +99,7 @@ const QuizOptions = ({ startQuiz }) => {
         </div>
          
         <div className="space-y-1">
-          <p className="text-base text-neutral-200 font-medium">
+          <p className="text-base flex items-start text-neutral-200 font-medium">
             Number of Questions
           </p>
           <input
