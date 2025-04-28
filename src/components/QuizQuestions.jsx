@@ -14,7 +14,7 @@ const QuizQuestions = ({question,index , handleAnswer,selectAnswers}) => {
             {question.answers.map((answer,i)=>(
                     <label 
                     key={i}
-                    className={`block h-11 p-3 rounded-lg flex items-start  ${selectAnswers === answer? "bg-neutral-400/20 ": ""} hover:bg-neutral-400/20`}
+                    className={`flex h-11 p-3 rounded-lg  items-start  ${selectAnswers === answer? "bg-neutral-400/20 ": ""} hover:bg-neutral-400/20`}
                     >
                          
                         <input
