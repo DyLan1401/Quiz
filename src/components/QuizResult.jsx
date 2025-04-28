@@ -49,7 +49,7 @@ const QuizResult = ({ questions, selectAnswers, correctAnswers, incorrectAnswers
             >
                
               <p className="font-bold">
-                Q{index + 1}: <span dangerouslySetInnerHTML={{ __html: q.question }} />
+                Q{index + 1}: <span dangerouslySetInnerHTML={{ __html: q.question}} />
               </p>
                
               <p className="font-bold">
@@ -59,18 +59,17 @@ const QuizResult = ({ questions, selectAnswers, correctAnswers, incorrectAnswers
                
               <p className="font-bold">
                 Correct Answer:{" "}
-                <span dangerouslySetInnerHTML={{ __html: q.correct_answer }} />
+                <span dangerouslySetInnerHTML={{ __html: q.correct_answer}} />
               </p>
 
             </div>
-          ))};
+          ))}
 
         </div>
 
          
       </div>
     </div>
-  );
-};
-
+  )
+}
 export default QuizResult;
